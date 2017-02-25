@@ -1,0 +1,54 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	min-width: 560px;
+}
+.container{
+	padding: 20px;
+	background-color: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+}
+.logo>img{
+	width: 80px;
+	height: 80px;
+}
+.left{
+	float: left;
+	width: 200px;
+	background: white;
+	border: 1px solid #999;
+	position: relative;
+}
+.left>.logo{
+	padding: 20px;
+}
+.left>span{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-weight: bold;
+}
+.center{
+	width: auto;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	background: white;
+	min-width: 100px;
+	border: 1px solid #999;
+}
+.right{
+	float: right;
+	width: 120px;
+	background: white;
+	border: 1px solid #999;
+}
+.right>.logo{
+	width: 80px;
+	height: 80px;
+	padding: 20px;
+	margin: 0 auto;
+}
