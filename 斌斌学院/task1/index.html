@@ -4,13 +4,50 @@
     <meta charset="utf-8">
     <title>IFE JavaScript Task 01</title>
   </head>
+  <style>
+    .container{
+        width: 300px;
+        margin: 0 auto;
+    }
+    label{
+        font-size: 20px;
+        background-color: #bce672;
+        border-radius: 5px;
+    }
+    input{
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 300px;
+    }
+    button{
+        border: 0px;
+        height: 30px;
+        width: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: white;
+        border-radius: 5px;
+        background: linear-gradient(to bottom, #134E5E, #71b280);
+    }
+    div#zhi{
+        background-color: #bce672;
+        border-radius: 5px;
+    }
+    div#zhi>span{
+        width: 30px;
+        font-size: 20px;
+    }
+  </style>
 <body>
 
-  <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
-  <button id="button" onclick="show()">确认填写</button>
+  <div class="container">
+    <label>请输入北京今天空气质量：<input id="aqi-input" type="text"></label>
+    <button id="button" onclick="show()">确认填写</button>
 
-  <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
-
+    <div id="zhi">您输入的值是：<span id="aqi-display">尚无录入</span></div>
+  </div>
 <script type="text/javascript">
 
 var text = document.getElementById("aqi-input").value;
@@ -21,7 +58,7 @@ function show() {
   在事件处理函数中
   获取aqi-input输入的值，并显示在aqi-display中
   */
-  alert(text);//为什么不能存储到变量？
+  //alert(text);//为什么不能存储到变量？
   document.getElementById("aqi-display").innerHTML = document.getElementById("aqi-input").value;
 };
 
