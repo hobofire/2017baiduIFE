@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task4</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		*,:before,:after{
+			box-sizing: 
+			border-box;content:" ";
+		}
+		.box{
+			width: 400px;
+			height: 200px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top:  -100px;
+			margin-left: -200px;
+			background-color: #ccc;
+		}
+		.box:before{
+			position: absolute;
+			top:0;
+			left:0;
+			width: 50px;
+			height: 50px;
+			background-color: #fc0;
+			border-bottom-right-radius: 100%;
+		}
+		.box:after{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 50px;
+			height: 50px;
+			background-color: #fc0;
+			border-top-left-radius: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			
+		</div>
+	</div>
+</body>
+</html>
