@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #dedede;
+	min-width: 1700px;
+}
+.clearfix{
+	clear: both;
+}
+h1{
+	font-family: "黑体";
+}
+h2{
+	line-height: 50px;
+	color: grey;
+	font-family: "黑体";
+	font-size: 25px;
+}
+h3{
+	line-height: 50px;
+	color: gray;
+	font-size: 15px;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #333;
+}
+.header>.logo{
+	float: left;
+	width: 200px;
+}
+.logo img{
+	width: 200px;
+}
+.header>ul{
+	line-height: 80px;
+	float: right;
+	width: auto;
+}
+.header>ul>li{
+	margin-right: 20px;
+	float: left;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.left{
+	width: 76%;
+	float: left;
+}
+.text,.pic{
+	margin: 20px 10px;
+	padding: 20px;
+	overflow: auto;
+	box-shadow: 2px 2px 2px 1px grey; 
+	background-color: #fff;
+}
+.pic{
+	overflow: auto;
+}
+.pic li{
+	border: solid 1px grey;
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 20px 10px;
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+}
+.pic>ul>li>a>img{
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+.text ol{
+	font-weight: bold;
+	width: 300px;
+	margin: 10px 40px;
+}
+.text ul{
+	margin: 20px;
+}
+.text ul li{
+	list-style: none;
+}
+.content>table{
+	width: 95%;
+	margin: 10px;
+	border: solid #ccc;
+	border-width: 1px 0px 0px 1px;
+}
+.content>table td{
+	border: solid #ccc;
+	border-width: 0px 1px 1px 0px;
+}
+.content>table tr{
+	line-height: 30px;
+}
+.content>table tr.tb-head{
+	text-align: left;
+	color: white;
+	background-color: #333;
+}
+.content>table tr.tb-footer{
+	background-color: #ccc;
+	font-weight: bold;
+}
+.right{
+	width: auto;
+	float: right;
+	background-color: #fff;
+	margin: 20px 10px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px 1px grey; 
+}
+.tb-title{
+	padding-left: 20px;
+	border-left: solid 5px grey;
+}
+.right tr{
+	font-weight: bold;
+	line-height: 30px;
+}
+.right .label{
+	color: grey;
+	font-size: 15px;
+	font-weight: bold;
+}
+.right #submit{
+	width: 100%;
+	border-radius: 10px;
+	color: white;
+	line-height: 45px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #3355d0;
+}
+.right .raido{
+	display: none;
+}
+.footer{
+	width: 100%;
+	height: 80px;
+	background: black;
+	color: white;
+	font-family: "黑体";
+	text-align: center;
+	line-height: 50px;
+}
